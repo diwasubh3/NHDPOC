@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "NHD Pro",
+    "slug": "nhd-pro",
+    "scheme": "nhdpro",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show maps.",
+        "NSLocationAlwaysUsageDescription": "This app uses your location to show maps."
+      }
+    },
+    "android": {
+      "package": "com.atharvamahalle12.brokerpro"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1cd61e9e-d60f-4e25-80d8-de8e86b35613"
+      }
+    }
+  }
+}
